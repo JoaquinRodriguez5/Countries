@@ -28,12 +28,12 @@ const ActivityForm = () => {
   };
 
   const handleCountriesChange = (event) => {
-    const selectedOptions = event.target.selectedOptions; // Accede a todas las opciones seleccionadas del select
-    const selectedCountries = []; // Crea un array vacío para guardar los países seleccionados
-    for (let option of selectedOptions) { // Recorre todas las opciones seleccionadas del select
-      selectedCountries.push(option.value); // Añade el valor de la opción al array
+    const selectedOptions = event.target.selectedOptions;
+    const selectedCountries = [];
+    for (let option of selectedOptions) {
+      selectedCountries.push(option.value);
     }
-    setCountries(selectedCountries); // Actualiza el estado con el array de países seleccionados
+    setCountries(selectedCountries);
   };
 
   const fetchCountries = async () => {
