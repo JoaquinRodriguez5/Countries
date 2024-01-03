@@ -1,0 +1,16 @@
+.landing-page {
+    /* background-image: url('../images/countries.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-page button {
+    box-shadow: inset 5px 5px 10px 2px black;
+  }
+  

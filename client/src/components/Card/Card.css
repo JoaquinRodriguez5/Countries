@@ -1,0 +1,48 @@
+.country-card {
+  background-color: white;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .country-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .country-card h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .country-card p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .country-card a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .countries-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }

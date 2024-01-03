@@ -1,0 +1,41 @@
+.detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .detail h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .detail h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+
+  .detail h4 sup {
+    vertical-align: super;
+    font-size: 15px;
+    color: black;
+  }
+
+  .home-button {
+    box-shadow: inset 5px 5px 10px 2px black;
+    margin-left: 10px;
+  }
